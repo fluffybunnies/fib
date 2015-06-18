@@ -11,8 +11,8 @@ Returns the fibonacci number at position `n`
 
 
 ### Example
-##### Traditional pattern
-##### 1, 1, 2, 3, 5, 8,13, 21, 34, 55, 89, 144, ...
+Traditional pattern
+<br />1, 1, 2, 3, 5, 8,13, 21, 34, 55, 89, 144, ...
 ```javascript
 var fib = require('fib')
 
@@ -26,8 +26,8 @@ fib(50) // 20365011074
 
 
 ### Example - zeroOffset = 1
-##### Common modern use case
-##### 0, 1, 1, 2, 3, 5, 8,13, 21, 34, 55, 89, ...
+Common modern use case
+<br />0, 1, 1, 2, 3, 5, 8,13, 21, 34, 55, 89, ...
 ```javascript
 var fib = require('fib')
 
@@ -41,8 +41,8 @@ fib(50, 1) // 12586269025
 
 
 ### Example - zeroOffset = x
-##### Use case: Delay sequence start for x `n`s
-##### [0 if `n`-`zeroOffset` < 0 ...], 1, 1, 2, 3, 5, 8,13, 21, 34, 55, 89, ...
+Use case: Delay sequence start for x `n`s
+<br />[0 if `n`-`zeroOffset` < 0 ...], 1, 1, 2, 3, 5, 8,13, 21, 34, 55, 89, ...
 ```javascript
 var fib = require('fib')
 
