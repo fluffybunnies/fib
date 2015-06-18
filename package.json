@@ -1,0 +1,28 @@
+{
+	"name": "fib",
+	"version": "0.0.1",
+	"description": "Fibonacci sequence",
+	"keywords": [
+		"fibonacci",
+		"sequence",
+		"natural",
+		"decay"
+	],
+	"homepage": "https://github.com/fluffybunnies/fib",
+	"author": "fluffybunnies",
+	"license": "MIT",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:fluffybunnies/fib.git"
+	},
+	"devDependencies": {
+		"tape": "~4.0.0"
+	},
+	"bugs": {
+		"url": "https://github.com/fluffybunnies/fib/issues"
+	},
+	"scripts": {
+		"test": "node test/test.js"
+	}
+}
