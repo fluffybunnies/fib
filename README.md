@@ -41,7 +41,7 @@ fib(50, 1) // 12586269025
 
 
 ### Example - zeroOffset = x
-Use case: Delay sequence start for x `n`s
+Use case: Delay sequence start for x `n`
 <br />[0 if `n`-`zeroOffset` < 0 ...], 1, 1, 2, 3, 5, 8,13, 21, 34, 55, 89, ...
 ```javascript
 var fib = require('fib')
