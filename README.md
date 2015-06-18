@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/fluffybunnies/data-crisper.png)](http://travis-ci.org/fluffybunnies/data-crisper)
+[![Build Status](https://secure.travis-ci.org/fluffybunnies/fib.png)](http://travis-ci.org/fluffybunnies/fib)
 
 # fib
 
@@ -42,7 +42,7 @@ fib(50, 1) // 12586269025
 
 ### Example - zeroOffset = x
 ##### Use case: Delay sequence start for x `n`s
-##### [0 if `n`-`zeroOffset`<0 ...], 1, 1, 2, 3, 5, 8,13, 21, 34, 55, 89, ...
+##### [0 if `n`-`zeroOffset` < 0 ...], 1, 1, 2, 3, 5, 8,13, 21, 34, 55, 89, ...
 ```javascript
 var fib = require('fib')
 
